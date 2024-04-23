@@ -51,7 +51,7 @@ wss.on('connection', (ws: WebSocket) => {
 
 async function checkAdmin(uuid: string): Promise<boolean> {
   try {
-    const response = await fetch(`https://meteor-plusplus.vercel.app/api/users/isAdmin`, {
+    const response = await fetch(`https://meteor.cvs0.xyz/api/users/isAdmin`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
